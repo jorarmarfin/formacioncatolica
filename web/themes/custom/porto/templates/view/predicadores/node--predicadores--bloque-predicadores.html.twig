@@ -1,0 +1,7 @@
+{% set thumbnail = node.field_image %}
+
+<div class="col-md-2 col-xs-6 center mb-lg">
+  <img src="{{ file_url(thumbnail.entity.uri.value|image_style('thumbnails_predicador')) }}" class="img-responsive img-thumbnail" alt="">
+  <h5 class="mt-sm mb-none">{{ label }}</h5>
+  <p class="mb-none">{{node.body.summary}}</p>
+</div>
