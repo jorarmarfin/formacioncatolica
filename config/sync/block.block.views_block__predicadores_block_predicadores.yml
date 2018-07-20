@@ -1,0 +1,24 @@
+uuid: f56f3b35-83f8-45b7-93da-74339c43b439
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.predicadores
+  module:
+    - views
+  theme:
+    - porto
+id: views_block__predicadores_block_predicadores
+theme: porto
+region: slide_show
+weight: 0
+provider: null
+plugin: 'views_block:predicadores-block_predicadores'
+settings:
+  id: 'views_block:predicadores-block_predicadores'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

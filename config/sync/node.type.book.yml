@@ -1,0 +1,23 @@
+uuid: 7cd88f53-97fd-4f1c-925d-7b58abacecfa
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - book
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: 2gWGA-X4ERc4McStS7cMEG3ZBpDEqfNRDPTjB1v674Y
+name: Libros
+type: book
+description: 'Libros catolicos, cursos, talleres'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

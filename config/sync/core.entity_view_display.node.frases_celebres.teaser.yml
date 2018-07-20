@@ -1,0 +1,30 @@
+uuid: 9a592f57-77ae-404c-ab0c-0eb61e65f39f
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.frases_celebres.body
+    - node.type.frases_celebres
+  module:
+    - text
+    - user
+id: node.frases_celebres.teaser
+targetEntityType: node
+bundle: frases_celebres
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

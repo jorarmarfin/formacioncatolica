@@ -1,0 +1,10 @@
+uuid: 8719f258-454f-4e7c-85cd-e579843ce6d6
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.bloque_articulos
+label: 'Bloque Articulos'
+targetEntityType: node
+cache: true

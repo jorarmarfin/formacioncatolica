@@ -1,0 +1,28 @@
+uuid: 0eae577e-38e2-4e54-abe1-9267c97624b7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.pan_de_la_palabra.body
+    - node.type.pan_de_la_palabra
+  module:
+    - text
+    - user
+id: node.pan_de_la_palabra.default
+targetEntityType: node
+bundle: pan_de_la_palabra
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

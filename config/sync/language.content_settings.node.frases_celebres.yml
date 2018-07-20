@@ -1,0 +1,11 @@
+uuid: 685d93cd-a4dd-4a5a-8a47-b8d84d0ea84b
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.frases_celebres
+id: node.frases_celebres
+target_entity_type_id: node
+target_bundle: frases_celebres
+default_langcode: site_default
+language_alterable: false

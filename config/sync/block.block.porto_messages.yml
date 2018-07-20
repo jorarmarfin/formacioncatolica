@@ -1,0 +1,22 @@
+uuid: 6066106d-54b6-436b-ac2f-6ba27b9a5b17
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - porto
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: porto_messages
+theme: porto
+region: header
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  provider: system
+  label_display: '0'
+visibility: {  }

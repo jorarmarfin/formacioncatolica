@@ -1,0 +1,22 @@
+uuid: f832cfb9-e520-436a-9336-cb4debf53bbd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - porto
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: porto_content
+theme: porto
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 61d7b178-0d20-449b-84da-ced9a6a440ca
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: articulos
+label: Articulos
+type: 'canonical_entities:node'
+pattern: 'articulos/[node:title]'
+selection_criteria:
+  4dfb280f-db0d-4eec-a90e-aaa30df68875:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 4dfb280f-db0d-4eec-a90e-aaa30df68875
+selection_logic: and
+weight: -5
+relationships: {  }

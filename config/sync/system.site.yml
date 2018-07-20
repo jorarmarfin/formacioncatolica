@@ -1,0 +1,14 @@
+uuid: aba37225-c025-4709-8437-a2c5d944058d
+name: 'Formación Católica'
+mail: luis.mayta@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /inicio
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

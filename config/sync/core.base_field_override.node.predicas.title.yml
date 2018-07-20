@@ -1,0 +1,18 @@
+uuid: bf287d08-5cc0-469c-808d-dfb424ab1048
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.predicas
+id: node.predicas.title
+field_name: title
+entity_type: node
+bundle: predicas
+label: Título
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

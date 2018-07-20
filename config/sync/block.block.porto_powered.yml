@@ -1,0 +1,22 @@
+uuid: 79b8bedd-bea8-437a-9155-d0d0cf1fa503
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - porto
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: porto_powered
+theme: porto
+region: header
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Funciona con Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

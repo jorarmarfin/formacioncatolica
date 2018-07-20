@@ -1,0 +1,14 @@
+uuid: 1beb9106-dcc5-4a47-a109-f3699b643aba
+langcode: es
+status: true
+dependencies: {  }
+name: thumbnails_predicador
+label: 'thumbnails predicador (165x165)'
+effects:
+  a9e1a6d6-f340-4692-a286-957f511fa86c:
+    uuid: a9e1a6d6-f340-4692-a286-957f511fa86c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 165
+      height: 165

@@ -1,0 +1,22 @@
+uuid: 11de2912-3278-4749-b022-b8d21a8b46c2
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: predicadores
+label: Predicadores
+type: 'canonical_entities:node'
+pattern: 'predicador/[node:title]'
+selection_criteria:
+  0ebda9ae-f129-4823-bfa8-75b9fba47eca:
+    id: node_type
+    bundles:
+      predicadores: predicadores
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 0ebda9ae-f129-4823-bfa8-75b9fba47eca
+selection_logic: and
+weight: -5
+relationships: {  }

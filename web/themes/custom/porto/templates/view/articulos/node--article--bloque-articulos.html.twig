@@ -1,0 +1,18 @@
+{#
+Nodo tipo bloque Articulos
+#}
+<div class="col-md-4">
+    <div class="recent-posts mt-xl">
+        <article class="post">
+            <div class="date">
+                <span class="day">{{ node.created.content|date('d') }}</span>
+                <span class="month">{{ node.created.content|date('F') }}</span>
+            </div>
+                <h4 class="heading-primary"><a href="{{ url }}">{{ label }}</a></h4>
+            <div>
+                {{ node.body.summary }}
+            </div>
+            <a href="{{ url }}" class="btn btn-borders btn-dark mt-md mb-xl">Leer más</a>
+        </article>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+uuid: b25ded9e-d0a5-49db-b107-a9e5cbfa9579
+langcode: es
+status: true
+dependencies: {  }
+name: Personajes
+vid: personajes
+description: ''
+hierarchy: 0
+weight: 0

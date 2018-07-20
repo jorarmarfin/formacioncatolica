@@ -1,0 +1,25 @@
+uuid: e4a1d691-bdb0-4bde-9f9a-9c576415def7
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f9dadf9e-23ab-4067-977f-8c84ee044b56'
+  module:
+    - block_content
+  theme:
+    - porto
+id: blocksociallinks
+theme: porto
+region: header_social
+weight: -9
+provider: null
+plugin: 'block_content:f9dadf9e-23ab-4067-977f-8c84ee044b56'
+settings:
+  id: 'block_content:f9dadf9e-23ab-4067-977f-8c84ee044b56'
+  label: 'Block Social links'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

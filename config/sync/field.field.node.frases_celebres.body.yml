@@ -1,0 +1,22 @@
+uuid: bf621c28-34e0-4785-9c50-b9ecc38e32a1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.frases_celebres
+  module:
+    - text
+id: node.frases_celebres.body
+field_name: body
+entity_type: node
+bundle: frases_celebres
+label: Descripción
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

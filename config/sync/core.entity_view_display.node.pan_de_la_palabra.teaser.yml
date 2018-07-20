@@ -1,0 +1,30 @@
+uuid: d86836cc-16e4-423b-9413-fceb653171f0
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pan_de_la_palabra.body
+    - node.type.pan_de_la_palabra
+  module:
+    - text
+    - user
+id: node.pan_de_la_palabra.teaser
+targetEntityType: node
+bundle: pan_de_la_palabra
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

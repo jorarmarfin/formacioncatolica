@@ -1,0 +1,22 @@
+uuid: 1b332738-03f1-425f-8bac-91311b395175
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: predicas
+label: Predicas
+type: 'canonical_entities:node'
+pattern: 'predica/[node:title]'
+selection_criteria:
+  69537812-c23a-4113-b53a-a7cfc9b346f6:
+    id: node_type
+    bundles:
+      predicas: predicas
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 69537812-c23a-4113-b53a-a7cfc9b346f6
+selection_logic: and
+weight: -5
+relationships: {  }

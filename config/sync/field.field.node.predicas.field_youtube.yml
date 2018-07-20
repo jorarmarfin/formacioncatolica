@@ -1,0 +1,21 @@
+uuid: 0e09f626-edcf-4812-b554-71617b191b97
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_youtube
+    - node.type.predicas
+  module:
+    - youtube
+id: node.predicas.field_youtube
+field_name: field_youtube
+entity_type: node
+bundle: predicas
+label: youtube
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: youtube

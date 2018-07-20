@@ -1,0 +1,20 @@
+uuid: d3881238-c29e-4ead-b422-e2db48713660
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+name: Articulos
+type: article
+description: 'Diversos artículos de la Iglesia'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

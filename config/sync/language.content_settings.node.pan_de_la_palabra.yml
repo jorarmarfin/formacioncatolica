@@ -1,0 +1,11 @@
+uuid: f30fae82-7c3e-4869-b6ae-c6eb444125e0
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.pan_de_la_palabra
+id: node.pan_de_la_palabra
+target_entity_type_id: node
+target_bundle: pan_de_la_palabra
+default_langcode: site_default
+language_alterable: false

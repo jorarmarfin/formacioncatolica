@@ -1,0 +1,22 @@
+uuid: 1953b3f7-894f-463f-b3b3-d18d92143d05
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: libros
+label: Libros
+type: 'canonical_entities:node'
+pattern: 'libros/[node:title]'
+selection_criteria:
+  5dfc290d-efc3-46be-93b9-12cccf8cd6b5:
+    id: node_type
+    bundles:
+      book: book
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 5dfc290d-efc3-46be-93b9-12cccf8cd6b5
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,10 @@
+uuid: 97825904-fcd0-4036-baf4-0dbf04143fab
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.bloque_predicadores
+label: 'Bloque Predicadores'
+targetEntityType: node
+cache: true

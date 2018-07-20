@@ -1,0 +1,32 @@
+uuid: cd91f021-043c-4d89-8821-af0227ffea65
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.diccionario.body
+    - node.type.diccionario
+  module:
+    - text
+    - user
+id: node.diccionario.teaser
+targetEntityType: node
+bundle: diccionario
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  langcode: true

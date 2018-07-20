@@ -1,0 +1,22 @@
+uuid: c74a55e2-5123-4f70-becb-c5c88ace98bb
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: diccionario
+label: Diccionario
+type: 'canonical_entities:node'
+pattern: 'diccionario/[node:title]'
+selection_criteria:
+  9da40899-37a0-4447-90fa-d4a1db97c2fa:
+    id: node_type
+    bundles:
+      diccionario: diccionario
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9da40899-37a0-4447-90fa-d4a1db97c2fa
+selection_logic: and
+weight: -5
+relationships: {  }

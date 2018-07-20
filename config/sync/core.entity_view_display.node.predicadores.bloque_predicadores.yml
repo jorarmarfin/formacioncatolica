@@ -1,0 +1,31 @@
+uuid: 45581791-2932-4e28-be32-b4589c2d0db3
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.bloque_predicadores
+    - field.field.node.predicadores.body
+    - field.field.node.predicadores.field_image
+    - node.type.predicadores
+  module:
+    - image
+    - user
+id: node.predicadores.bloque_predicadores
+targetEntityType: node
+bundle: predicadores
+mode: bloque_predicadores
+content:
+  field_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  addtoany: true
+  body: true
+  langcode: true
+  links: true

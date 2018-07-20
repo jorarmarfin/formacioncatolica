@@ -1,0 +1,30 @@
+uuid: 3d0307fd-12e8-4237-bf32-185eabbdd247
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.diccionario.body
+    - node.type.diccionario
+  module:
+    - text
+    - user
+id: node.diccionario.default
+targetEntityType: node
+bundle: diccionario
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  langcode: true
