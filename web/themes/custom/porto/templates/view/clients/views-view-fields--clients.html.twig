@@ -1,8 +1,0 @@
-
-{% set images = row._entity.field_image %}
-{% for image  in images %}
-<div>
-    <img class="img-responsive" src="{{ file_url(image.entity.fileuri) }}" alt="">
-</div>
-{% endfor %}
-
